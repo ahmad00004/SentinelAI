@@ -1,0 +1,22 @@
+{
+  "held_out_attack_category": "Shellcode",
+  "training_method": "Isolation Forest fitted on normal training records only",
+  "preprocessing_fit_on": "Normal training records only",
+  "threshold": "Isolation Forest default; not tuned on held-out test labels",
+  "random_state": 42,
+  "training_normal_records": 37000,
+  "evaluation_normal_records": 56000,
+  "evaluation_held_out_attack_records": 1133,
+  "true_negatives": 51729,
+  "false_positives": 4271,
+  "false_negatives": 1132,
+  "true_positives": 1,
+  "precision_at_default_threshold": 0.00023408239700374532,
+  "detection_rate_recall": 0.00088261253309797,
+  "f1_score": 0.0003700277520814061,
+  "false_positive_rate": 0.07626785714285714,
+  "roc_auc": 0.3397275406632203,
+  "average_precision": 0.013579223635001466,
+  "attack_prevalence": 0.01983092083384384,
+  "threshold_tuned_on_held_out_attacks": false
+}

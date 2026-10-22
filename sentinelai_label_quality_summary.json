@@ -1,0 +1,16 @@
+{
+  "input_file": "UNSW_NB15_testing-set.csv",
+  "records_scanned": 175341,
+  "feature_count": 42,
+  "chunk_size": 5000,
+  "distinct_feature_patterns": 101040,
+  "repeated_feature_patterns": 9748,
+  "rows_in_repeated_patterns": 84049,
+  "cross_category_pattern_groups": 1772,
+  "rows_in_cross_category_groups": 30528,
+  "normal_attack_conflict_groups": 229,
+  "fuzzer_normal_conflict_groups": 228,
+  "fuzzer_rows_sharing_pattern_with_normal": 543,
+  "normal_rows_sharing_pattern_with_fuzzer": 395,
+  "interpretation": "Review-only label/feature ambiguity report. No labels are changed and no model is trained. Identical feature patterns with different labels cannot be separated using these inputs alone."
+}

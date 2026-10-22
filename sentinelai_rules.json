@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "id": "NET-001",
+      "name": "High source-to-destination-port fan-out",
+      "description": "The source has repeated connections to the same destination port in the recent-flow window. Investigate for scanning or unusual repeated activity.",
+      "field": "ct_src_dport_ltm",
+      "operator": "gte",
+      "value": 20,
+      "severity": "Medium",
+      "enabled": true,
+      "tuning_note": "UNSW-NB15-inspired starting threshold. Tune against representative local traffic before operational use. A match is an investigation signal, not proof of an attack."
+    }
+  ]
+}

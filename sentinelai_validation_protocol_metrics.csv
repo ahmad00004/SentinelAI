@@ -1,0 +1,6 @@
+proto,total_normal,false_positives,false_positive_rate_percent
+arp,194,0,0.0
+igmp,4,1,25.0
+ospf,6,0,0.0
+tcp,5589,46,0.823045267489712
+udp,1607,27,1.6801493466085875

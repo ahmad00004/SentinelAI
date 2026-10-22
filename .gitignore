@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+*.sqlite
+*.sqlite3
+
+# Download UNSW-NB15 directly from its official academic source.
+UNSW_NB15_training-set.csv
+UNSW_NB15_testing-set.csv
+NUSW-NB15_features.xls

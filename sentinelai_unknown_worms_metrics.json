@@ -1,0 +1,16 @@
+{
+  "held_out_attack_category": "Worms",
+  "training_method": "Isolation Forest trained on normal records only",
+  "training_normal_records": 37000,
+  "evaluation_normal_records": 56000,
+  "evaluation_held_out_attack_records": 130,
+  "true_negatives": 51729,
+  "false_positives": 4271,
+  "false_negatives": 110,
+  "true_positives": 20,
+  "precision": 0.004660918200885575,
+  "detection_rate_recall": 0.15384615384615385,
+  "f1_score": 0.009047726758651889,
+  "false_positive_rate": 0.07626785714285714,
+  "threshold_tuned_on_held_out_attacks": false
+}

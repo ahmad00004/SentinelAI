@@ -1,0 +1,58 @@
+{
+    "benchmark": "SentinelAI Isolation Forest",
+    "random_seed": 42,
+    "n_estimators": 200,
+    "contamination": "auto",
+    "fit_data": "Normal training records only",
+    "normal_fit_records": 29600,
+    "normal_validation_records": 7400,
+    "attack_validation_records": 45332,
+    "test_records": 175341,
+    "feature_count": 42,
+    "target_validation_fpr": 0.01,
+    "selected_threshold": 0.054771757032212376,
+    "validation_calibrated_metrics": {
+        "TN": 7326,
+        "FP": 74,
+        "FN": 34647,
+        "TP": 10685,
+        "precision": 0.9931220373640673,
+        "recall": 0.23570546192535075,
+        "f1": 0.38098803729653596,
+        "false_positive_rate": 0.01,
+        "roc_auc": 0.7512976842323661,
+        "average_precision": 0.9516129999091423
+    },
+    "test_default_metrics": {
+        "TN": 51489,
+        "FP": 4511,
+        "FN": 76820,
+        "TP": 42521,
+        "precision": 0.9040865793502296,
+        "recall": 0.3562983383749089,
+        "f1": 0.5111526509710109,
+        "false_positive_rate": 0.08055357142857143,
+        "roc_auc": 0.7025173734598456,
+        "average_precision": 0.853033533832937
+    },
+    "test_calibrated_metrics": {
+        "TN": 55146,
+        "FP": 854,
+        "FN": 83481,
+        "TP": 35860,
+        "precision": 0.9767391185923626,
+        "recall": 0.30048348849096285,
+        "f1": 0.4595815577841146,
+        "false_positive_rate": 0.01525,
+        "roc_auc": 0.7025173734598456,
+        "average_precision": 0.853033533832937
+    },
+    "threshold_selected_using_test_labels": false,
+    "test_set_caveat": "The official test set was examined in previous experiments. These results are reproducible but exploratory, not a pristine independent final evaluation.",
+    "elapsed_seconds": 3.38,
+    "output_files": [
+        "sentinelai_benchmark_predictions.csv",
+        "sentinelai_benchmark_metrics.json",
+        "sentinelai_benchmark_by_category.csv"
+    ]
+}
