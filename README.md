@@ -55,7 +55,7 @@ The dashboard asks for the MySQL password in its sidebar. The API health endpoin
 
 ## Model and data files
 
-The two `.joblib` files in the project are required by the API. The dashboard also reads the weighted Random Forest validation CSV reports. The UNSW-NB15 CSV files support the experiments and label-quality audit. Do not treat the dataset as live telemetry.
+The two `.joblib` files in the project are required by the API. The dashboard also reads the weighted Random Forest validation CSV reports. The UNSW-NB15 CSV files support the experiments and label-quality audit. Do not treat the dataset as live telemetry. The older `sentinelai_supervised_rf.joblib` artifact is optional and used by offline comparison scripts; it is available as an asset in the [v1.0.0 release](https://github.com/ahmad00004/SentinelAI/releases/tag/v1.0.0).
 
 The UNSW-NB15 source files are not committed here. Download the training and testing partitions from the [official UNSW-NB15 dataset page](https://research.unsw.edu.au/projects/unsw-nb15-dataset). The dataset page grants academic research use and requests citation of its associated publications; follow its citation guidance in reports and presentations.
 
